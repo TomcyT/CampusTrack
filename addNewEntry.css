@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+body{
+	background: #E4F7FF ;
+	padding: 0 10px;
+
+}
+
+.container{
+	max-width: 500px;
+	width: 100%;
+	background: #fff;
+	margin: 20px auto;
+	padding: 30px;
+	box-shadow: 1px 30px 60px 10px #96C4D8;
+	border-radius: 30px;
+
+}
+
+.container .title{
+	font-size: 24px;
+	font-weight: 700;
+	margin-bottom: 25px;
+	color: #22242A;
+	text-align: center;
+}
+.container .form{
+	width: 100%;
+
+}
+.container .form .input-field {
+	margin-bottom: 15px;
+	display: flex;
+}
+.container .form .input-field .fname{
+	flex-direction: row;
+	display: flex;
+}
+
+.container .form .input-field label{
+	width: 200px;
+	color: #757575;
+}
+.container .form .input-field input  ,.container .form .input-field select  {
+	width: 100%;
+	outline: none;
+	border: 1px solid #d5dbd9;
+	font-size: 15px;
+	padding: 2px 10px;
+	border-radius: 12px;
+	transition: all 0.3s ease;
+	border: 1px solid #EEEEEE;
+
+}
+.container .form .input-field input:focus{
+	border: 1px solid #19B3D3 ;
+}
+
+.container .form .inputfield .btn{
+	width: 100%;
+	padding: 8px 10px;
+	font-size: 15px;
+	border: 0;
+	background: #19B3D3;
+	color: #fff;
+	cursor: pointer;
+	border-radius: 50px;
+	outline: none;
+}
+.container .form .inputfield .btn:hover {
+	background: #E4F7FF;
+	transition: 0.3s ease;
+	color: #19B3D3;
+}
+a{
+	text-decoration: none;
+	padding: 10px 16px;
+	text-align: center;
+	background: #fff;
+	box-shadow: 1px 4px 20px #96C4D8;
+
+}
+a:hover{
+	background: #19B3D3;
+	transition: 0.3s;
+}
+.backbtn .btn{
+	position: fixed;
+	left: 20%;
+	padding: 8px 20px;
+	border-radius: 50px;
+	transition: 0.3s;
+	font-size: 18px;
+	color: #000;
+}
+.logoutbtn .logbtn{
+	position: fixed;
+	left: 20%;
+	top: 80px;
+	color: #000;
+	border-radius: 50px;
+	box-shadow: 1px 1px 10px #96C4D8;
+	font-size: 18px;
+
+}
+@media (max-width: 420px){
+	.container .form .input-field{
+		margin-bottom: 15px;
+		align-items: flex-start;
+		flex-direction: column;
+
+	}
+	.container .form .input-field label{
+		margin-bottom: 10px;
+	}
+}

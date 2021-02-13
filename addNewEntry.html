@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>New Entry</title>
+	<link rel="stylesheet" href="addNewEntry.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="backbtn">
+			<a href="homePage.php" class="btn"><i class="fa fa-home"></i>Home</a>
+	</div>
+	<div class="logoutbtn">
+			<a href="index.html" class="logbtn"><i class="fa fa-sign-out" aria-hidden="true"></i>Logout</a>
+	</div>
+	<div class="container">
+		<div class="title">
+			New Vehicle Registration
+		</div>
+		<div class="form">
+			<form action="addNewEntry.php" method="POST">
+			<div class="input-field">
+				
+				<label>First Name</label>
+				<input type="text" name="firstName" required>
+			</div>
+			<div class="input-field">
+				<label>Last Name</label>
+				<input type="text" name="lastName" required>
+			</div>
+			<div class="input-field">
+				<label>Phone Number</label>
+				<input type="text" name="phoneNo" required>
+			</div>
+			<div class="input-field">
+				<label>Email ID</label>
+				<input type="text" name="emailId" required>
+			</div>
+			<div class="reg_type">
+				<div class="input-field">
+				<label>User</label>
+				<select name="userType" required>
+					<option value="">Select</option>
+					<option value="Faculty">Faculty</option>
+					<option value="Student">Student</option>	
+				</select>
+				</div>
+			</div>	
+			<div class="vehicle_Select">
+				<div class="input-field">
+				<label>Vehicle Type</label>
+				<select name="veh" required>
+					<option value="">Select</option>
+					<option value="Car">Car</option>
+					<option value="Bike">Bike</option>
+					<option value="Others">Others</option>	
+				</select>
+				</div>
+			</div>
+			<div class="input-field">
+				<label>Brand</label>
+				<input type="text" name="brand" required>
+			</div>
+			<div class="input-field">
+				<label>Model</label>
+				<input type="text" name="model" required>
+			</div>
+			<div class="input-field">
+				<label>Number Plate</label>
+				<input type="text" name="licenseNumber" required>
+			</div>
+			<div class="input-field">
+				<label>Registration Number</label>
+				<input type="text" name="regNumber" required>
+			</div>
+			<div class="inputfield">
+				<input type="submit" name="register" class="btn" value="Register" onclick="myFunction()">
+			</div>
+			
+		</form>
+		</div>
+	</div>
+<script>
+function myFunction() {
+  alert("New Entry successfully Added");
+}
+</script>
+</body>
+
+</html>
