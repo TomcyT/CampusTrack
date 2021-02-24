@@ -6,7 +6,7 @@ The idea behind the web app is to provide seamless user experience and faster re
 
 - - - -
 
-### Technologies Used 
+> ### Technologies Used 
 * PHP
 * MYSQL
 * HTML
