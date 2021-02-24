@@ -13,9 +13,9 @@ The idea behind the web app is to provide seamless user experience and faster re
 * CSS
 
 > Contributors
->> Tomcy Thomas 
->> Himanshu Chaudhary
->> Sagar Poduval
->> Eshika Janbandhu
+* Tomcy Thomas 
+* Himanshu Chaudhary
+* Sagar Poduval
+* Eshika Janbandhu
 
 
