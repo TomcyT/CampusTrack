@@ -14,8 +14,8 @@ The idea behind the web app is to provide seamless user experience and faster re
 
 > Contributors
 >> Tomcy Thomas 
->> Himanshu Chaudhary
->> Sagar Poduval
->> Eshika Janbandhu
+>>> Himanshu Chaudhary
+>>>> Sagar Poduval
+>>>>> Eshika Janbandhu
 
 
